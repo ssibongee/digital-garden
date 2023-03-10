@@ -1,5 +1,5 @@
 const path = require("path");
-const pathPrefix = "/";
+const pathPrefix = "/digital-garden";
 const siteMetadata = {
   title: "Digital Garden",
   shortName: "Digital Garden",
@@ -31,7 +31,7 @@ module.exports = {
             url: "https://github.com/ssibongee",
           },
         ],
-        editUrl: "https://github.com/ssibongee/digital-garden/blob/master/content",
+        editUrl: "https://github.com/ssibongee/digital-garden/blob/master/content/",
         sidebarComponents: ["latest", "tag", "category"],
         categoryText: "목록",
         lastUpdatedText: "최근 업데이트",
