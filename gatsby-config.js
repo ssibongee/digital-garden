@@ -1,5 +1,4 @@
-const path = require("path");
-console.log(path);
+const path = require('path');
 const siteMetadata = {
   title: "Digital Garden",
   shortName: "Digital Garden",
@@ -9,7 +8,7 @@ const siteMetadata = {
 
 module.exports = {
   siteMetadata,
-  pathPrefix: '/digital-garden',
+  pathPrefix: `/digital-garden`,
   flags: {
     DEV_SSR: true,
   },
@@ -44,7 +43,7 @@ module.exports = {
       options: {
         name: siteMetadata.title,
         short_name: siteMetadata.shortName,
-        start_url: '/digital-garden',
+        start_url: `/digital-garden`,
         background_color: `#2596be`,
         display: `standalone`,
 	icon: path.resolve(__dirname, './static/logo.png'),
