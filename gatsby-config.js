@@ -31,7 +31,7 @@ module.exports = {
             url: "https://github.com/ssibongee",
           },
         ],
-        editUrl: "https://github.com/ssibongee/digital-garden/blob/master/content/",
+        editUrl: "https://github.com/ssibongee/digital-garden/blob/master/",
         sidebarComponents: ["latest", "tag"],
         lastUpdatedText: "최근 업데이트",
         shouldSupportLatest: true,
