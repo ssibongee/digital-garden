@@ -45,6 +45,7 @@ module.exports = {
         start_url: pathPrefix,
         background_color: `#2596be`,
         display: `standalone`,
+	icon: path.resolve(__dirname, './static/logo.png'),
       },
     },
     {
