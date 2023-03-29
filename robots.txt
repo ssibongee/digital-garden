@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ssibongee.github.io/digital-garden/sitemap/sitemap-index.xml
+Host: https://ssibongee.github.io
