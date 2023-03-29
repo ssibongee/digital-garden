@@ -9,7 +9,7 @@ tags:
 
 
 
-# Presentation Layer를 Integration Test로 사용하는 경우
+## Presentation Layer를 Integration Test로 사용하는 경우
 - Application Layer를 Mocking 하지 않는다.
 - 실제 API를 통해 UseCase를 실행시킨다.
 - Test Container 등을 통해 독립적으로 테스트할 수 있또록 구성한다. (RDB, Redis 등)
