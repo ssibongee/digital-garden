@@ -5,6 +5,10 @@ tags:
     - Integration Test
 ---
 
+# Presentation Layer Test
+
+
+
 # Presentation Layer를 Integration Test로 사용하는 경우
 - Application Layer를 Mocking 하지 않는다.
 - 실제 API를 통해 UseCase를 실행시킨다.
